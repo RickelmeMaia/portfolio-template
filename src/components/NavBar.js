@@ -3,7 +3,15 @@ import styles from "./NavBar.modules.css"
 
 function NavBar(){
     return(
-        <div className="navBar"></div>
+        <div className="navBar">
+            
+           
+                <a href="#aboutMe">About Me</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+          
+        </div>
     )
 }
 

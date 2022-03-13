@@ -8,7 +8,7 @@ function AboutMe(){
                 <img src="http://via.placeholder.com/280x380" alt="Uma foto minha" />
             </div>
             <div className="aboutMeRightContainer">
-                <h1>About Me</h1>
+                <h1 id="aboutMe">About Me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error esse consequatur laborum aliquid assumenda exercitationem dicta, praesentium suscipit illum ea? Nesciunt eveniet esse iusto totam dolorum quam officia quo adipisci!</p>
                 <div className="aboutMeRightContainerInner">
                     <div className="aboutMeRightContainerInnerLeft">

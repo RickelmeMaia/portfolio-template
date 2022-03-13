@@ -11,6 +11,11 @@
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: 5%;
+    box-shadow: 0px 0px 0px black;
+    transition: box-shadow 300ms;
+}
+.serviceCard:hover{
+    box-shadow: 2px 2px 10px black;
 }
 .serviceCard img{
     max-width: 70px;

@@ -1,11 +1,17 @@
 .projectCard{
-    background-color: #2c2d42;
+    background-color: #2e2f44;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2rem 0 1rem 0;
     height: 100%;
+    border-radius: 9px;
+    box-shadow: 0px 0px 0px black;
+    transition: box-shadow 300ms;
+}
+.projectCard:hover{
+    box-shadow: 2px 2px 10px black;
 }
 .projectCardImg{
     display: flex;
@@ -29,7 +35,14 @@
 .projectInfo a{
     text-decoration: none;
     background-color: #d44e4b;
-    padding: 8px 12px;
+    padding: 3% 6%;
     border-radius: 5px;
     color: white;
+    transition: background-color 300ms;
+}
+.projectInfo a:hover{
+    background-color: #fa7e7c;
+}
+.projectInfo h1{
+    font-size: 2.5rem;
 }

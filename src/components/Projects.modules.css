@@ -2,6 +2,15 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.containerTitle h1{
+    color: white;
+    font-size: 2.5rem;
+    width: fit-content;
+    border-bottom: 2px #d44e4b solid;
+    margin-top: 2rem;
 }
 .projectsGrid{
     display: grid;

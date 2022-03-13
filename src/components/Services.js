@@ -7,7 +7,7 @@ function Services(){
     return(
         <div className="services">
             <div className="servicesTitle">
-                <h1>Services</h1>
+                <h1 id="services">Services</h1>
             </div>
            <div className="servicesCardContainer">
              <ServiceCard serviceTitle="WebDesign" serviceText="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error esse consequatur laborum aliquid assumenda exercitationem dicta, praesentium suscipit"/>

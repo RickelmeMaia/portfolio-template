@@ -2,4 +2,18 @@
     width: 100%;
     background-color: #d44e4b;
     height: 3.5rem;
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    padding-right: 5%;
+    align-items: center;
+}
+.navBar a{
+    text-decoration: none;
+    color: #ffffffe0;
+    font-size: 18px;
+    transition: color 300ms;
+}
+.navBar a:hover{
+    color: #a7a7a7e1;
 }
