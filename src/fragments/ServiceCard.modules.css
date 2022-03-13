@@ -1,0 +1,18 @@
+.serviceCard{
+    width: 325px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d44e4b;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5%;
+}
+.serviceCard img{
+    max-width: 70px;
+    max-height: 70px;
+}

@@ -1,0 +1,28 @@
+.services{
+    background-color: #1c1d2c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicesTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.servicesTitle h1{
+    color: white;
+    font-size: 2.5rem;
+    width: fit-content;
+    border-bottom: 2px #d44e4b solid;
+}
+.servicesCardContainer{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
