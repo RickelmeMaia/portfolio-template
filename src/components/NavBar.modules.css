@@ -5,7 +5,6 @@
     display: flex;
     justify-content: right;
     gap: 2rem;
-    padding-right: 5%;
     align-items: center;
 }
 .navBar a{
@@ -16,4 +15,7 @@
 }
 .navBar a:hover{
     color: #a7a7a7e1;
+}
+.navBar a:last-child{
+    margin-right: 5%;
 }

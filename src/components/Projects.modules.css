@@ -26,3 +26,11 @@
     grid-row-start: 1;
     grid-row-end: 3;
 }
+@media(max-width: 890px){
+    .projectsGrid{
+        display: flex;
+        overflow-x: scroll;
+        padding: 2rem 0;
+        gap: 16px;
+    }
+}

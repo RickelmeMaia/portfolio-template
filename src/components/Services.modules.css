@@ -26,3 +26,13 @@
     gap: 1rem;
     flex-wrap: wrap;
 }
+@media(max-width: 890px){
+    .servicesCardContainer{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: space-between;
+        width: 85%;
+        align-items: center;
+        padding: 2rem 0;
+    }
+}

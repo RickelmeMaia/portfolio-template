@@ -21,3 +21,8 @@
     max-width: 70px;
     max-height: 70px;
 }
+@media(max-width: 890px){
+    .serviceCard{
+        min-width: 300px;
+    }
+}

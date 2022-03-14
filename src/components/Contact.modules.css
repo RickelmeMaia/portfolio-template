@@ -40,7 +40,7 @@
     align-items: center;
     gap: 20px;
     background-color: #2a2c42;
-    width: 30rem;
+    width: 100%;
     border: 1px #171925 solid;
     color:#ffffffc7;
     border-radius: 6px;
@@ -50,4 +50,25 @@
 }
 .contactInfo:hover{
     color: #d44e4b;
+}
+@media(max-width: 890px){
+    .contactContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactContainerLeft{
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        padding: 2rem 0;
+    }
+    .contactContainerLeft p{
+        width: 300px;
+    }
+    .contactContainerLeft h1{
+        width: 300px;
+    }
+    .contactContainerRight{
+        width: 100%;
+    }
 }
