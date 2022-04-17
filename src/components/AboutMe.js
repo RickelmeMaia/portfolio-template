@@ -1,30 +1,34 @@
 import React from "react";
-import styles from "./AboutMe.modules.css"
+import styles from "./AboutMe.modules.css";
 
-function AboutMe(){
-    return(
-        <div className="aboutMe">
-            <div className="aboutMeLeftContainer">
-                <img src="http://via.placeholder.com/280x380" alt="Uma foto minha" />
-            </div>
-            <div className="aboutMeRightContainer">
-                <h1 id="aboutMe">About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error esse consequatur laborum aliquid assumenda exercitationem dicta, praesentium suscipit illum ea? Nesciunt eveniet esse iusto totam dolorum quam officia quo adipisci!</p>
-                <div className="aboutMeRightContainerInner">
-                    <div className="aboutMeRightContainerInnerLeft">
-                        <p className="info">Name: Jose Rickelme</p>    
-                        <p className="info">Number: 90 90909090</p>
-                        <p className="info">Discord: Rickelme#0000</p>
-                    </div>
-                    <div className="aboutMeRightContainerInnerRight">
-                        <p className="info">Age: 18</p> 
-                        <p className="info">Adress: RN, Brazil</p>   
-                        <p className="info">Freelance: Avaliable</p>
-                    </div>
-                </div>
-            </div>
+function AboutMe() {
+  return (
+    <div className="aboutMe">
+      <div className="aboutMeLeftContainer">
+        <img src="http://via.placeholder.com/280x380" />
+      </div>
+      <div className="aboutMeRightContainer">
+        <h1 id="aboutMe">Competências</h1>
+        <p className="centerText">
+          Em 2021 concluí o curso de desenvolvimento web básico da
+          CodaBR-Clooser mas iniciei meus estudos de Frontend em 2020 e possuo
+          mais de 2000 horas de pratica em projetos pessoais e outros cursos
+        </p>
+        <div className="aboutMeRightContainerInner">
+          <div className="aboutMeRightContainerInnerLeft">
+            <p className="info">Nome: Jose Rickelme</p>
+            <p className="info">wpp: 84 9640-3033</p>
+            <p className="info">Discord: RickelmeVGTA#2942</p>
+          </div>
+          <div className="aboutMeRightContainerInnerRight">
+            <p className="info">email: rickelmevgta@gmail.com</p>
+            <p className="info">Endereço: RN, Brasil</p>
+            <p className="info">Freelancer: Disponivel</p>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default AboutMe
+export default AboutMe;

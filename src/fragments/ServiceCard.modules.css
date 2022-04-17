@@ -1,28 +1,32 @@
-.serviceCard{
-    width: 325px;
-    height: 275px;
-    display: flex;
-    flex-direction: column;
-    background-color: #d44e4b;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    gap: 16px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border-radius: 5%;
-    box-shadow: 0px 0px 0px black;
-    transition: box-shadow 300ms;
+.serviceCard {
+  width: 325px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  background-color: #d44e4b;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 5%;
+  box-shadow: 0px 0px 0px black;
+  transition: box-shadow 300ms;
 }
-.serviceCard:hover{
-    box-shadow: 2px 2px 10px black;
+.serviceCard h2 {
+  color: #1c1d2c;
+  font-size: 1.9rem;
 }
-.serviceCard img{
-    max-width: 70px;
-    max-height: 70px;
+.serviceCard:hover {
+  box-shadow: 2px 2px 10px black;
 }
-@media(max-width: 890px){
-    .serviceCard{
-        min-width: 300px;
-    }
+.serviceCard img {
+  max-width: 100px;
+  max-height: 100px;
+}
+@media (max-width: 890px) {
+  .serviceCard {
+    min-width: 300px;
+  }
 }
